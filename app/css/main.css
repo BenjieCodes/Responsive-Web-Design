@@ -1,0 +1,63 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto; }
+  .container header {
+    width: 100%; }
+  .container nav {
+    width: 100%; }
+    .container nav ul {
+      margin: 0;
+      padding: 0; }
+      .container nav ul li {
+        list-style: none;
+        display: inline-block; }
+        .container nav ul li a {
+          text-decoration: none;
+          background-color: #e0531b;
+          color: white;
+          padding: 3px 10px;
+          margin-right: 10px; }
+  .container section {
+    margin-top: 15px;
+    width: 100%;
+    overflow: auto;
+    background-color: #3f535a;
+    color: white; }
+    .container section aside {
+      float: right;
+      width: 25%;
+      padding: 0 2.5%; }
+      .container section aside a {
+        color: #e0531b; }
+    .container section article {
+      float: left;
+      width: 65%;
+      padding: 0 2.5%; }
+  .container footer {
+    width: 100%; }
+
+@media screen and (max-width: 750px) {
+  body {
+    background: red; } }
+
+@media screen and (max-width: 700px) {
+  body {
+    background: orange; } }
+
+@media screen and (max-width: 650px) {
+  body {
+    background: yellow; } }
+
+@media screen and (max-width: 600px) {
+  body {
+    background: green; } }
+
+@media screen and (max-width: 550px) {
+  body {
+    background: blue; } }
+
+@media screen and (max-width: 500px) {
+  body {
+    background: violet; } }
+
+/*# sourceMappingURL=main.css.map */
